@@ -1,7 +1,7 @@
 {
   "name": "mention-hashtag",
-  "version": "1.0.0",
-  "description": "Extract menctions (@menction) or hashtags (#hashtag) from any text",
+  "version": "1.1.0",
+  "description": "Extract mentions (@mention) and/or hashtags (#hashtag) from any text",
   "homepage": "https://github.com/lmfresneda/mention-hashtag",
   "main": "index.js",
   "scripts": {
@@ -22,8 +22,6 @@
     "tags",
     "mention",
     "mentions",
-    "menction",
-    "menctions",
     "regex",
     "regexp",
     "regular",

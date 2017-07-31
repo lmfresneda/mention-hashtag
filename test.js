@@ -49,6 +49,28 @@ describe('Extract Hashtags', () => {
 
 });
 
+describe('Extract Mix', () => {
+
+	it(`'text with #hashtag and @mention' text with 1 hashtag and 1 mention`, () => {
+		const result = extract('text with #hashtag and @mention', 'all');
+		assert.equal(1, result.mentions.length, `'text with #hashtag and @mention' text should have 1 mention`);
+		assert.equal(1, result.hashtags.length, `'text with #hashtag and @mention' text should have 1 hashtag`);
+	});
+
+	it(`'text with #hashtag and #hashtag and @mention' text with 1 hashtag and 1 mention but unique is required`, () => {
+		const result = extract('text with #hashtag and @mention', {type: 'all', unique: true});
+		assert.equal(1, result.mentions.length, `'text with #hashtag and #hashtag and @mention' text and unique required should have 1 mention`);
+		assert.equal(1, result.hashtags.length, `'text with #hashtag and #hashtag and @mention' text and unique required should have 1 hashtag`);
+	});
+
+	it(`'text with #hashtag and @mention' text with 1 hashtag and 1 mention but symbol is not required`, () => {
+		const result = extract('text with #hashtag and @mention', {type: 'all', symbol: false});
+		assert.equal('mention', result.mentions[0], `'text with #hashtag and @mention' text and symbol is not required should be without @`);
+		assert.equal('hashtag', result.hashtags[0], `'text with #hashtag and @mention' text and symbol is not required should be without #`);
+	});
+
+});
+
 describe('Throw error', () => {
 	it('Type error with & symbol', () => {
 		assert.throws(
