@@ -1,4 +1,6 @@
 # mention-hashtag
+[![npm](https://img.shields.io/npm/v/mention-hashtag.svg?style=flat-square)](https://www.npmjs.com/package/mention-hashtag) [![GitHub release](https://img.shields.io/github/release/lmfresneda/mention-hashtag.svg?style=flat-square)](https://github.com/lmfresneda/mention-hashtag/releases/tag/1.0.0) [![npm](https://img.shields.io/npm/l/mention-hashtag.svg?style=flat-square)](https://opensource.org/licenses/MIT) [![Travis](https://img.shields.io/travis/lmfresneda/mention-hashtag.svg?style=flat-square)](https://travis-ci.org/lmfresneda/mention-hashtag)
+
 Extract menctions (@menction) or hashtags (#hashtag) from any text
 
 ## How to use
