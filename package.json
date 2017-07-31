@@ -1,0 +1,41 @@
+{
+  "name": "mention-hashtag",
+  "version": "1.0.0",
+  "description": "Extract menctions (@menction) or hashtags (#hashtag) from any text",
+  "homepage": "https://github.com/lmfresneda/mention-hashtag",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bugs": {
+    "url": "https://github.com/lmfresneda/mention-hashtag/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lmfresneda/mention-hashtag.git"
+  },
+  "author": "lmfresneda <https://lmfresneda.github.io>",
+  "keywords": [
+    "hashtag",
+    "hashtags",
+    "tag",
+    "tags",
+    "mention",
+    "mentions",
+    "menction",
+    "menctions",
+    "regex",
+    "regexp",
+    "regular",
+    "regular expression",
+    "regular expressions",
+    "twitter",
+    "user",
+    "username",
+    "expression"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  }
+}
