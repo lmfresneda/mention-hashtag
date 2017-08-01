@@ -1,5 +1,5 @@
 # mention-hashtag
-[![npm](https://img.shields.io/npm/v/mention-hashtag.svg?style=flat-square)](https://www.npmjs.com/package/mention-hashtag) [![npm](https://img.shields.io/npm/l/mention-hashtag.svg?style=flat-square)](https://opensource.org/licenses/MIT) [![Travis](https://img.shields.io/travis/lmfresneda/mention-hashtag.svg?style=flat-square)](https://travis-ci.org/lmfresneda/mention-hashtag)
+[![npm](https://img.shields.io/npm/v/mention-hashtag.svg?style=flat-square)](https://www.npmjs.com/package/mention-hashtag) [![npm](https://img.shields.io/npm/dw/mention-hashtag.svg?style=flat-square)](https://www.npmjs.com/package/mention-hashtag) ![Love](https://img.shields.io/badge/love-max-brightgreen.svg?style=flat-square) [![Travis](https://img.shields.io/travis/lmfresneda/mention-hashtag.svg?style=flat-square)](https://travis-ci.org/lmfresneda/mention-hashtag)
 
 Extract mentions (@mention) and/or hashtags (#hashtag) from any text
 
