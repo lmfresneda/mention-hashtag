@@ -4,7 +4,7 @@ function _getRegexMention(){
 	return new RegExp(/(?:^|[^a-zA-Z0-9_＠!@#$%&*])(?:(?:@|＠)(?!\/))([a-zA-Z0-9/_]{1,15})(?:\b(?!@|＠)|$)/igm);
 }
 function _getRegexHashtag(){
-	return new RegExp(/(?:^|[^a-zA-Z0-9_]+)(?:(?:#)(?!\/))([a-zA-Z0-9/_]+)(?:\b(?!#)|$)/igm);
+	return new RegExp(/(?:^|[^a-zA-Z0-9_])(?:(?:#)(?!\/))([a-zA-Z0-9/_]+)(?:\b(?!#)|$)/igm);
 }
 function _unique(arr){
 	return arr.filter((val, i, _arr) => _arr.indexOf(val) === i);
