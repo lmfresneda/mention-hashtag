@@ -47,6 +47,10 @@ describe('Extract Hashtags', () => {
 		assert.equal('hashtag', hashtags[0], `'text with 1 #hashtag' text and symbol is not required should be without #`);
 	});
 
+	it(`'text with hashtag! #hashtag' text with 1 hashtag including an exclamation mark before it`, () => {
+		const hashtags = extract('text with hashtag! #hashtag', '#');
+		assert.equal('#hashtag', hashtags[0], `'text with hashtag! #hashtag' should return proper hashtag`);
+	});
 });
 
 describe('Extract Mix', () => {
